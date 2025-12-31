@@ -1,0 +1,5 @@
+{
+  "name": "Retro Snake 3310",
+  "description": "A fully playable, retro-themed Snake game running inside a realistic Nokia 3310 phone interface.",
+  "requestFramePermissions": []
+}
