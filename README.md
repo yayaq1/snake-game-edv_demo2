@@ -1,18 +1,13 @@
----
-
 # 🐍 React Snake (Nokia 3310 Clone)
-
 A modern web-based implementation of the classic Nokia 3310 Snake game, built entirely with **React**. This project brings the nostalgic gameplay to the browser using functional components and React Hooks.
 
 ## 📺 Live Demo
-
 **[Link to your deployed game (e.g., Vercel/Netlify)]**
 
 ---
 
 ## ✨ Features
 
-* **Classic Gameplay:** Eat the food, grow the snake, and avoid hitting walls or your own tail.
 * **High Score Tracking:** Saves your best score to local storage so you never lose your record.
 * **Dynamic Speed:** The game gets faster as you eat more food (difficulty progression).
 * **Responsive Control:** Play using keyboard arrow keys.
