@@ -99,10 +99,13 @@ const PixelCanvas: React.FC<PixelCanvasProps> = ({ gameState }) => {
       ref={canvasRef}
       width={SCREEN_WIDTH * SCALE}
       height={SCREEN_HEIGHT * SCALE}
-      className="w-full h-full object-contain"
       style={{ 
         imageRendering: 'pixelated',
-        backgroundColor: COLOR_SCREEN_BG 
+        backgroundColor: COLOR_SCREEN_BG,
+        display: 'block',
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain'
       }}
     />
   );
